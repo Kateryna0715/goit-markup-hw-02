@@ -59,12 +59,13 @@ body {
   color: var(--ocean);
   text-decoration: underline;
 }
-
+.header-address {
+  font-style: normal;
+}
 .contacts-item {
 }
 .contacts-link {
   color: var(--body-text);
-  font-style: normal;
 }
 
 .contacts-link:hover,
@@ -79,14 +80,16 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-
+  text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white);
 }
 .hero-btn {
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   background-color: var(--primary-brand);
   color: var(--white);
 }
@@ -101,21 +104,29 @@ body {
 .benefits-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
   color: var(--dark);
 }
 .works-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   color: var(--dark);
 }
 .team {
-  background-color: var(--accent-color);
+  background-color: var(--light);
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--dark);
 }
 .team-item {
@@ -125,18 +136,12 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark);
-}
-.portfolio-btn-all {
-  background-color: var(--ocean);
-  color: var(--white);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
 }
 
 .portfolio-btn {
+  font-family: inherit;
   background-color: var(--light);
   color: var(--primary-brand);
   font-weight: 500;
@@ -152,7 +157,14 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark);
+}
+.project-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
 }
 .footer {
   background-color: var(--dark);
