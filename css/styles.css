@@ -151,7 +151,8 @@ body {
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  background-color: var(--accent-color);
+  background-color: var(--ocean);
+  color: #ffffff;
 }
 .projects-item-title {
   font-weight: 500;
